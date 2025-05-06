@@ -1,4 +1,4 @@
-name: shared
+name: jump_off_platform
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -81,4 +81,4 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+  # see https://flutter.dev/custom-fonts/#from-packages 

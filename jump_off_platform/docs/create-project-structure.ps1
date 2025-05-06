@@ -1,5 +1,3 @@
-powershell -ExecutionPolicy Bypass -File create-project-structure.sh
-
 # Flutter Jump-Off Platform Directory Structure Script (PowerShell)
 # Creates the directory structure for a Flutter project
 
@@ -125,4 +123,4 @@ function Create-ProjectStructure {
 }
 
 # Run the main function
-Create-ProjectStructure
+Create-ProjectStructure 
