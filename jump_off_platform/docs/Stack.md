@@ -11,7 +11,7 @@ Why This Hybrid?
 • Single Language Ecosystem: Focus on TypeScript/JavaScript to maintain a unified skill set and toolchain.
 • Large Community & Libraries: React, React Native, and Electron all have robust ecosystems for third-party plugins, UI kits, and platform APIs.
 
-PROJECT STRUCTURE & ORGANIZATION ──────────────────────────────────────────────────────── 
+2.PROJECT STRUCTURE & ORGANIZATION ──────────────────────────────────────────────────────── 
 2.1 Monorepo Layout (Recommended)
 my-app/ ├─ apps/ │ ├─ web/ (React for browsers) │ ├─ mobile/ (React Native for iOS/Android) │ └─ desktop/ (Electron for Windows/macOS/Linux) ├─ packages/ │ ├─ user-management/ (Your existing React-based user-management logic) │ ├─ shared-services/ (API calls, analytics, push notifications, any domain logic) │ └─ shared-ui/ (cross-platform UI components, styling hooks) ├─ ci-cd/ (build scripts, lint configs, environment configs) ├─ tests/ (common E2E/integration tests) ├─ docs/ (architecture decisions, developer guides, ADRs) └─ package.json (root dependencies, npm/yarn scripts)
 
